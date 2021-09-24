@@ -1,0 +1,205 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Grenze Gotisch',cursive, Arial, sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+/**** HEADER ****/
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  height: 80px;
+
+}
+
+.trybewarts-header-logo {
+  width: 70px;
+  margin: 10px;
+}
+
+ header h1 {
+  font-family: 'Harry Potter', sans-serif;
+  font-size: 40px;
+}
+
+.trybewarts-login {
+  display: flex;
+  margin-right: 10px;
+}
+
+.trybewarts-login input , .btn-Entrar {
+  width: 176px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+input[type='password'], [type='email'], [type='text'], select, button {
+  font-family: 'Harry Potter', sans-serif;
+  height: 45px;
+  border-radius: 8px;
+  padding-left: 15px;
+  font-size: 18px;
+  border: none;
+}
+
+button {
+  font-family: 'Harry Potter', sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  background-color: rgb(77, 43, 130);
+  color: whitesmoke;
+}
+
+/**** MAIN ****/
+main {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.tittle {
+  padding: 24px;
+  text-align: center;
+}
+
+/**** FORMS ****/
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+.first-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px auto 13px;
+  border-bottom: solid 1px rgb(141, 141, 141);
+}
+
+.first-form input , select {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 3px;
+}
+
+.first-form .select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+}
+
+
+/**** FORMS - CHECKED ****/
+.second-form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: solid 1px rgb(141, 141, 141);
+  font-size: 24px;
+  height: 150px;
+  padding: 22px 0 34px;
+
+
+}
+
+.inputRadios {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.inputCheckbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 423.517px;
+  height: 130px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputCheckbox .material {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px 20px 3px 0;
+  flex: 1 27%;
+  width: 100px;
+  height: 23px;
+}
+
+/**** AVALIATION ****/
+.avaliation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  margin-bottom: 10px;
+
+}
+
+/**** TEXTAREA ****/
+.textarea {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 95px;
+  border: solid 1px rgb(78, 44, 131);
+  border-radius: 5px;
+}
+
+#counter {
+  text-align: end;
+}
+
+#submit-btn {
+  border-radius: 8px 8px 1px 1px;
+}
+
+button:disabled {
+  border: none rgb(153, 153, 153);
+  background-color: rgb(204, 204, 204);
+  color: rgb(102, 102, 102);
+}
+
+.result {
+  width: 675px;
+  margin: 0 auto 10px;
+  text-align: center;
+  word-break: break-word;
+  border: solid 1px rgb(204, 204, 204);
+  border-radius: 5px;
+}
+
+#trybewarts-forms-logo {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(60, 64, 74);
+  padding: 7px;
+  height: 45px;
+}
